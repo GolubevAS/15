@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_start"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="top"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_image_start" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_3_x_3"
+                style="@style/MainButtonStyle"
+                android:background="@drawable/ic_btn"
+                android:text="@string/threeXthree" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_5_x_5"
+                style="@style/MainRedButtonStyle"
+                android:layout_width="match_parent"
+                android:background="@drawable/ic_btn_red"
+                android:text="@string/fiveXfive" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_7_x_7"
+                style="@style/MainButtonStyle"
+                android:background="@drawable/ic_btn"
+                android:text="@string/sevenXseven" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_9_x_9"
+                style="@style/MainButtonStyle"
+                android:background="@drawable/ic_btn"
+                android:text="@string/nineXnine" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_4_x_4"
+                style="@style/MainButtonStyle"
+                android:background="@drawable/ic_btn"
+                android:text="@string/fourXfour" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_6_x_6"
+                style="@style/MainButtonStyle"
+                android:background="@drawable/ic_btn"
+                android:text="@string/sixXsix" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_8_x_8"
+                style="@style/MainButtonStyle"
+                android:background="@drawable/ic_btn"
+                android:text="@string/eightXeight" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but_10_x_10"
+                style="@style/MainButtonStyle"
+                android:background="@drawable/ic_btn"
+                android:text="@string/tenXten" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

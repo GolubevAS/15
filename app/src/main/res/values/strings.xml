@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">15</string>
+
+  <string name="new_game">Начать заново</string>
+    <string name="threeXthree">3x3</string>
+    <string name="fourXfour">4x4</string>
+    <string name="fiveXfive">5x5</string>
+    <string name="sixXsix">6x6</string>
+    <string name="sevenXseven">7x7</string>
+    <string name="eightXeight">8x8</string>
+    <string name="nineXnine">9x9</string>
+    <string name="tenXten">10x10</string>
+    <string name="you_win">Замечательная победа!</string>
+    <string name="again">Давай попробуем еще?</string>
+    <string name="yes">КОНЕЧНО!</string>
+    <string name="no">Ну, нет</string>
+
+</resources>
